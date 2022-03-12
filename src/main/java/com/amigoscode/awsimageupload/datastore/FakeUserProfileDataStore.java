@@ -11,8 +11,8 @@ import java.util.UUID;
 public class FakeUserProfileDataStore {
 
     public List<UserProfile> getUserProfiles() {
-        UserProfile userProfile01 =  new UserProfile(UUID.randomUUID(), "janetjones", null);
-        UserProfile userProfile02 =  new UserProfile(UUID.randomUUID(), "antoniojunior", null);
+        UserProfile userProfile01 = new UserProfile(UUID.randomUUID(), "janetjones", null);
+        UserProfile userProfile02 = new UserProfile(UUID.randomUUID(), "antoniojunior", null);
 
         List<UserProfile> USER_PROFILES = new ArrayList<>();
         USER_PROFILES.add(userProfile01);
